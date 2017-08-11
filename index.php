@@ -58,7 +58,7 @@ $result=mysqli_query($connect,$query);
 <!-- LAYER NR. 1 -->
     <div class="tp-caption tp-resizeme sft" id="banner-text"
         data-x="45"
-        data-y="480"
+        data-y="330"
         data-speed="1000"
         data-start="2400"
         data-easing="Power4.easeOut"
@@ -71,7 +71,7 @@ $result=mysqli_query($connect,$query);
 <!-- LAYER NR. 2 -->
     <div class="tp-caption tp-resizeme sft" id="readmore"
       data-x="55"
-      data-y="580"
+      data-y="420"
       data-speed="1000"
       data-start="3000"
       data-easing="Power3.easeInOut"
@@ -93,7 +93,7 @@ $result=mysqli_query($connect,$query);
 <!-- LAYER NR. 1 -->
     <div class="tp-caption tp-resizeme sft" id="banner-text"
         data-x="45"
-        data-y="480"
+        data-y="330"
         data-speed="1000"
         data-start="2400"
         data-easing="Power4.easeOut"
@@ -106,7 +106,7 @@ $result=mysqli_query($connect,$query);
 <!-- LAYER NR. 2 -->
     <div class="tp-caption tp-resizeme sft" id="readmore"
       data-x="55"
-      data-y="580"
+      data-y="420"
       data-speed="1000"
       data-start="3000"
       data-easing="Power3.easeInOut"
@@ -126,7 +126,7 @@ $result=mysqli_query($connect,$query);
 <!-- LAYER NR. 1 -->
     <div class="tp-caption tp-resizeme sft" id="banner-text"
         data-x="45"
-        data-y="480"
+        data-y="330"
         data-speed="1000"
         data-start="2400"
         data-easing="Power4.easeOut"
@@ -139,7 +139,7 @@ $result=mysqli_query($connect,$query);
 <!-- LAYER NR. 2 -->
     <div class="tp-caption tp-resizeme sft" id="readmore"
       data-x="55"
-      data-y="580"
+      data-y="420"
       data-speed="1000"
       data-start="3000"
       data-easing="Power3.easeInOut"
@@ -158,7 +158,7 @@ $result=mysqli_query($connect,$query);
 <!-- LAYER NR. 1 -->
     <div class="tp-caption tp-resizeme sft" id="banner-text"
         data-x="45"
-        data-y="480"
+        data-y="330"
         data-speed="1000"
         data-start="2400"
         data-easing="Power4.easeOut"
@@ -171,7 +171,7 @@ $result=mysqli_query($connect,$query);
 <!-- LAYER NR. 2 -->
     <div class="tp-caption tp-resizeme sft" id="readmore"
       data-x="55"
-      data-y="580"
+      data-y="420"
       data-speed="1000"
       data-start="3000"
       data-easing="Power3.easeInOut"
@@ -339,7 +339,7 @@ $result=mysqli_query($connect,$query);
                                                <a href="#"><p><?php echo $row['author'];?></p></a>
                                                                                              
                                                 <time class='published' ><?php echo $row['category'];?></time>
-<!-- d6b50480983b95cf39058442325e382bbaf57ae4-->
+<!-- d6b50330983b95cf39058442325e382bbaf57ae4-->
                                             </header>
                                             
                                             <a href='post.php?pid=<?php echo $row['id'];?>' class='image'><img src='<?php echo"img/".$row['imgname'];?>' alt='' /></a>
