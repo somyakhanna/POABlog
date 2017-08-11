@@ -7,7 +7,7 @@
 jQuery('.tp-banner').show().revolution(
 {
     dottedOverlay:"none",
-    delay:16000,
+    delay:6000,
     startwidth:1170,
     startheight:500,
     hideThumbs:200,
@@ -21,7 +21,7 @@ jQuery('.tp-banner').show().revolution(
     navigationStyle:"preview4",
 
     touchenabled:"on",
-    onHoverStop:"on",
+    onHoverStop:"off",
 
     swipe_velocity: 0.7,
     swipe_min_touches: 1,

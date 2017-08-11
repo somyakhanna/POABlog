@@ -31,6 +31,13 @@ $query="SELECT * FROM posts WHERE category='$s'";
            
 <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,300italic,300,100italic,100,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Font Awesome 4.3.0 -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
+ <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
 
 </head>
 
@@ -45,7 +52,7 @@ $query="SELECT * FROM posts WHERE category='$s'";
         
          <br>
         
- <h1 style="text-align:center"><?php echo $s;?></h1>
+ <h2 style="text-align:center"><?php echo $s;?></h2>
          
       <h1>Featured Posts</h1>
       
