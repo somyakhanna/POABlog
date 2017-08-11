@@ -216,7 +216,7 @@ $result=mysqli_query($connect,$query);
                                             <header>
 
                                                 <h3><a href='post.php?pid=<?php echo $row['id'];?>' id='genre'><?php echo $row['title'];?></a></h3>
-                                                <p><?php echo $row['author'];?></p>
+                                                <a href="#"><p><?php echo $row['author'];?></p></a>
                                                                                              
                                                 <time class='published' ><?php echo $row['category'];?></time>
 <!-- d6b50480983b95cf39058442325e382bbaf57ae4-->

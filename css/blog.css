@@ -1,3 +1,4 @@
+/**Search Button**/
 *,
  :active {
     outline: none!important;
@@ -52,7 +53,7 @@ input {
 .showSearch {
     border-color: #b3d2f2;
 }
-
+/**GENERAL**/
 html,
 body,
 div,
@@ -201,7 +202,7 @@ h1 {
     color: black;
     text-align: center;
 }
-
+/**FOOTER**/
 .footer-nav {
     background-color: #ededed;
     
@@ -259,7 +260,7 @@ h1 {
     border-left:0;
 }
 
-/**Top Rated Blogs**/
+/**Most Liked Blogs**/
 ul.posts article {
     display: -moz-flex;
     display: -webkit-flex;
@@ -1551,17 +1552,13 @@ input[readonly] {
   background-color: white !important;
   cursor: text !important;
 }
-
-
+/***OWL CAROUSEL***/
 .slider{
     width:100%;
     height:auto;
 }
 .owl-carousel{
     margin-bottom: 50px;
-}
-.owl-carousel.item{
-    
 }
 
 .owl-next{
@@ -1582,6 +1579,8 @@ input[readonly] {
     width:auto;
     display:none;
     }
+   
+/***Comment Box***/    
     
     .well textarea {
         resize: none;
@@ -1656,4 +1655,20 @@ input[readonly] {
 .media-list {
   padding-left: 0;
   list-style: none;
+}
+
+/******INDEX BANNER****/
+#banner-text{
+    z-index: 7; 
+             max-width: auto;
+             max-height: auto; 
+             white-space: nowrap;
+             font-family : 'Playball', sans-serif;
+             font-size: 45px;
+             letter-spacing: 3px;
+             color: #fff;  
+    
+}
+#readmore{
+    z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;
 }

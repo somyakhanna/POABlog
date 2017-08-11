@@ -44,7 +44,7 @@ $result=mysqli_query($connect,$query);
 </head>
 
 <body>
-   <?php include("menu.html");?>
+   <?php include("menu.php");?>
     <!--#################################
     - THEMEPUNCH BANNER -
 #################################-->
@@ -56,7 +56,7 @@ $result=mysqli_query($connect,$query);
     <img src="img/banner3.jpg"  alt="slidebg1" data-lazyload="img/banner3.jpg" data-bgposition="" data-bgfit="cover" data-bgrepeat="no-repeat">
     <!-- LAYERS -->
 <!-- LAYER NR. 1 -->
-    <div class="tp-caption tp-resizeme sft"
+    <div class="tp-caption tp-resizeme sft" id="banner-text"
         data-x="45"
         data-y="480"
         data-speed="1000"
@@ -65,11 +65,11 @@ $result=mysqli_query($connect,$query);
         data-endspeed="300"
         data-endeasing="Power1.easeIn"
         data-captionhidden="off"
-        style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;font-family : 'Playball', sans-serif;font-size: 45px; letter-spacing: 3px; color: #fff;">Be the Best Version of you
+        >Be the Best Version of you
       </div>  
   
 <!-- LAYER NR. 2 -->
-    <div class="tp-caption tp-resizeme sft"
+    <div class="tp-caption tp-resizeme sft" id="readmore"
       data-x="55"
       data-y="580"
       data-speed="1000"
@@ -80,7 +80,7 @@ $result=mysqli_query($connect,$query);
       data-elementdelay="0.1"
       data-endelementdelay="0.1"
       data-linktoslide="next"
-      style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#" class='tr-slider-btn'>READ MORE</a>
+      ><a href="#" class='tr-slider-btn'>READ MORE</a>
     </div>
 
   </li>
@@ -91,7 +91,7 @@ $result=mysqli_query($connect,$query);
     <img src="img/banner2.jpg"  alt="" data-lazyload="img/banner2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 <!-- LAYERS -->
 <!-- LAYER NR. 1 -->
-    <div class="tp-caption tp-resizeme sft"
+    <div class="tp-caption tp-resizeme sft" id="banner-text"
         data-x="45"
         data-y="480"
         data-speed="1000"
@@ -100,11 +100,11 @@ $result=mysqli_query($connect,$query);
         data-endspeed="300"
         data-endeasing="Power1.easeIn"
         data-captionhidden="off"
-        style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;font-family : 'Playball', sans-serif;font-size: 45px; letter-spacing: 3px; color: #fff;">Step in to the world of vintage Cars!
+       >Step in to the world of vintage Cars!
       </div>  
   
 <!-- LAYER NR. 2 -->
-    <div class="tp-caption tp-resizeme sft"
+    <div class="tp-caption tp-resizeme sft" id="readmore"
       data-x="55"
       data-y="580"
       data-speed="1000"
@@ -115,7 +115,7 @@ $result=mysqli_query($connect,$query);
       data-elementdelay="0.1"
       data-endelementdelay="0.1"
       data-linktoslide="next"
-      style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#" class='tr-slider-btn'>READ MORE</a>
+      ><a href="#" class='tr-slider-btn'>READ MORE</a>
     </div>
    </li>
   
@@ -124,7 +124,7 @@ $result=mysqli_query($connect,$query);
     <img src="img/fbanner.jpg"  alt="" data-lazyload="img/fbanner.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 <!-- LAYERS -->
 <!-- LAYER NR. 1 -->
-    <div class="tp-caption tp-resizeme sft"
+    <div class="tp-caption tp-resizeme sft" id="banner-text"
         data-x="45"
         data-y="480"
         data-speed="1000"
@@ -133,11 +133,11 @@ $result=mysqli_query($connect,$query);
         data-endspeed="300"
         data-endeasing="Power1.easeIn"
         data-captionhidden="off"
-        style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;font-family : 'Playball', sans-serif;font-size: 45px; letter-spacing: 3px; color: #fff;">Enjoy Delhi's Beautiful sunset with a Boat Ride!
+        >Enjoy Delhi's Beautiful sunset with a Boat Ride!
       </div>  
   
 <!-- LAYER NR. 2 -->
-    <div class="tp-caption tp-resizeme sft"
+    <div class="tp-caption tp-resizeme sft" id="readmore"
       data-x="55"
       data-y="580"
       data-speed="1000"
@@ -148,7 +148,7 @@ $result=mysqli_query($connect,$query);
       data-elementdelay="0.1"
       data-endelementdelay="0.1"
       data-linktoslide="next"
-      style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#" class='tr-slider-btn'>READ MORE</a>
+      ><a href="#" class='tr-slider-btn'>READ MORE</a>
     </div>
   </li>
    <li data-transition="slotfade-horizontal" data-slotamount="1" data-masterspeed="500" data-title="">
@@ -156,7 +156,7 @@ $result=mysqli_query($connect,$query);
     <img src="img/red.jpg"  alt="" data-lazyload="img/red.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 <!-- LAYERS -->
 <!-- LAYER NR. 1 -->
-    <div class="tp-caption tp-resizeme sft"
+    <div class="tp-caption tp-resizeme sft" id="banner-text"
         data-x="45"
         data-y="480"
         data-speed="1000"
@@ -165,11 +165,11 @@ $result=mysqli_query($connect,$query);
         data-endspeed="300"
         data-endeasing="Power1.easeIn"
         data-captionhidden="off"
-        style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;font-family : 'Playball', sans-serif;font-size: 45px; letter-spacing: 3px; color: #fff;">Ye Dilli Hai Meri Jaan!
+        >Ye Dilli Hai Meri Jaan!
       </div>  
   
 <!-- LAYER NR. 2 -->
-    <div class="tp-caption tp-resizeme sft"
+    <div class="tp-caption tp-resizeme sft" id="readmore"
       data-x="55"
       data-y="580"
       data-speed="1000"
@@ -180,7 +180,7 @@ $result=mysqli_query($connect,$query);
       data-elementdelay="0.1"
       data-endelementdelay="0.1"
       data-linktoslide="next"
-      style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#" class='tr-slider-btn'>READ MORE</a>
+      ><a href="#" class='tr-slider-btn'>READ MORE</a>
     </div>
    </li>
   
@@ -335,9 +335,8 @@ $result=mysqli_query($connect,$query);
                                 <li style='padding:5px;'>
                                         <article>
                                             <header>
-<HEAD>
-                                                <h3><a href='post.php?pid=<?php echo $row['id'];?>' id='genre'><?php echo $row['title'];?></a></h3>
-                                                <p><?php echo $row['author'];?></p>
+                                               <h3><a href='post.php?pid=<?php echo $row['id'];?>' id='genre'><?php echo $row['title'];?></a></h3>
+                                               <a href="#"><p><?php echo $row['author'];?></p></a>
                                                                                              
                                                 <time class='published' ><?php echo $row['category'];?></time>
 <!-- d6b50480983b95cf39058442325e382bbaf57ae4-->

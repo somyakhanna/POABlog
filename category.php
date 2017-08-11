@@ -23,7 +23,7 @@ $query="SELECT * FROM posts WHERE category='$s'";
     <title>Plan of Action</title>
 
       
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+   
     <link rel="stylesheet" type="text/css"href="css/blog.css">
     
     <!-- Bootstrap Core CSS -->
@@ -48,9 +48,7 @@ $query="SELECT * FROM posts WHERE category='$s'";
  <h1 style="text-align:center"><?php echo $s;?></h1>
          
       <h1>Featured Posts</h1>
-      <div class="slider">
-           <div class="owl-carousel" id="slider">
-               
+      
  
      <?php
          
@@ -61,7 +59,7 @@ $result1=mysqli_query($connect,$query);
 //echo $result1;
         while ($row = mysqli_fetch_assoc($result1)){
           ?>
-               <div class="item">
+               
     <div class='pro_part col-xs-12 col-sm-6 col-md-4 col-lg-4'>
     <?php if(isset($row['imgname'])){
                 if($row['imgname']=="no")
@@ -82,24 +80,20 @@ background-position: center;background-size:cover;'><a href='post.php'></a><?php
        <div class='clear'></div>
       </div>
     </div>
-               </div>
+               
 <?php 
           
 
 }            ?>
               
-           </div>
-      </div>
+           
         <div class="row load">
             <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4"> <a href="#" class="btn btn-lg btn-success">View All</a></div></div>
 
-            
+            <hr>
                 
       <h1>Latest Posts</h1>
-      <div class="slider">
-           <div class="owl-carousel" id="slider2">
-               
- 
+      
      <?php
          
         
@@ -109,7 +103,7 @@ $result1=mysqli_query($connect,$query);
 //echo $result1;
         while ($row = mysqli_fetch_assoc($result1)){
           ?>
-               <div class="item">
+              
     <div class='pro_part col-xs-12 col-sm-6 col-md-4 col-lg-4'>
     <?php if(isset($row['imgname'])){
                 if($row['imgname']=="no")
@@ -130,18 +124,17 @@ background-position: center;background-size:cover;'><a href='post.php'></a><?php
        <div class='clear'></div>
       </div>
     </div>
-               </div>
+              
 <?php 
           
 
 }            ?>
               
-           </div>
-      </div>
+           
         <div class="row load">
             <div class="col-xs-12 col-sm-12 col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4"> <a href="#" class="btn btn-lg btn-success">View All</a></div></div>
 
-            
+            <hr>
       <section >
             <div class="container" >
                 <div class="row " >
@@ -214,7 +207,7 @@ background-position: center;background-size:cover;'><a href='post.php'></a><?php
             </div>
                 </section>
 
-            
+            <hr>
         <div id="right-wrapper" class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
 
                 <!-- Posts List -->
@@ -223,7 +216,7 @@ background-position: center;background-size:cover;'><a href='post.php'></a><?php
                         <br>
                         <ul class="posts col-xs-12 col-sm-12 col-lg-12 col-md-12">
 
-                            <h1 id="heading">Most Liked</h1>
+                            <h1 id="heading">Most Liked Posts</h1>
                             
                             <?php 
                             $p=0;
@@ -261,21 +254,5 @@ background-position: center;background-size:cover;'><a href='post.php'></a><?php
 <script src="js/script.js"></script>
 
 
-    <script type="text/javascript"  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     
-    
-<script type="text/javascript"  src="js/owl.carousel.js">
-    </script>
-    <script type="text/javascript">
-          $(document).ready(function() {
-      $("#slider,#slider2").owlCarousel({
-          margin:20,
-          autoplay:500,
-          items:3
-          
-          
-      });
-  });
-    </script>
-           
    
